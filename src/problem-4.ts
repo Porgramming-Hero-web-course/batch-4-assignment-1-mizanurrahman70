@@ -19,13 +19,7 @@
         throw new Error("not matching shape name")
     }
 
-    const circleArea = calculateShapeArea({ shape: "circle", radius: 5 });
-    const rectangleArea = calculateShapeArea({
-        shape: "rectangle",
-        width: 4,
-        height: 6,
-    });
-    console.log(circleArea)
-    console.log(rectangleArea)
+    
+   
 
 }
